@@ -1,0 +1,29 @@
+project:
+  type: website
+  resources:
+    - cv.pdf
+  preview:
+    port: 7777
+
+website:
+  title: "Saurabh Band"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: papers.qmd
+        text: Publications
+      # - href: projects.qmd
+      #   text: Projects
+
+  page-footer:
+    left: "© 2025 Saurabh"
+
+format:
+  html:
+    theme: [sandstone, _variables.scss]
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,60 @@
+---
+title: "Saurabh Band"
+image: avatar.jpg
+about:
+  template: trestles
+  links:
+    - text: LinkedIn
+      url: "https://www.linkedin.com/in/saurabh-band-29045576/"
+      target: _blank
+      icon: linkedin
+    - text: GitHub
+      url: "https://github.com/saurabh-2905"
+      target: _blank
+      icon: github
+    - text: "{{< iconify academicons google-scholar >}} Google Scholar"
+      url: "https://scholar.google.com/citations?user=7bMtWGMAAAAJ&hl=en"
+      target: _blank
+    - text: "{{< iconify simple-icons researchgate >}} Research Gate"
+      url: "https://www.researchgate.net/profile/Saurabh-Band?ev=prf_overview"
+      target: _blank
+    - text: Email
+      icon: envelope
+      url: "mailto:band.srbh@gmail.com"
+    - text: CV
+      url: "./cv.pdf"
+      target: _blank
+
+
+comments: false
+---
+
+
+::: {.column-page}
+
+<!-- ## Bio  -->
+
+## Hi, I’m Saurabh 👋
+
+I’m a PhD researcher at the Department of Sustainable Communication Networks (<a href="https://www.uni-bremen.de/comnets" target="_blank">ComNets</a>), University of Bremen, Germany, where I work on making **IoT devices more reliable and intelligent**. My research focuses on enabling microcontroller-based devices to detect and diagnose malfunctions during runtime, significantly reducing the time and effort needed for debugging in the field.  
+
+I combine microcontrollers with lightweight machine learning models to bring advanced fault detection and diagnosis (FDD) capabilities to the edge. My broader interests include **low-power IoT applications, edge computing, and efficient ML on constrained devices**.  
+
+Beyond Earth, I was part of the [Humans on Mars Initiative](https://www.uni-bremen.de/humans-on-mars-initiative), where we explore how to build reliable wireless sensor networks for extraterrestrial habitats—a challenge that pushes the boundaries of what robust IoT can achieve.  
+
+During my PhD journey, I’ve also had the opportunity to mentor master’s students on their projects and theses—an equally rewarding experience that taught me as much as I taught them.  
+
+On this site you’ll find my **publications, CV, and updates** on topics I’m currently exploring.  
+
+<!-- I’m a Research Assistant at department of Sustainable Communication Networks (ComNets), at Univesity of Bremen, Germany, My work focuses on making **microcontroller-based IoT devices more reliable and power-efficient**. Much of my recent work focuses on bringing **machine learning for anomaly detection and fault diagnosis (FDD)** onto resource-constrained **wireless sensor nodes**, while carefully measuring the **overhead in CPU, memory, and energy use** that these techniques introduce.  
+
+In prior projects, I’ve explored a range of directions: developing **runtime anomaly detection (VarLogger)** for sensor nodes, studying the **reliability of monitoring systems for extraterrestrial habitats**, and experimenting with **low-power wireless protocols such as LoRa**. I enjoy combining **measurement-driven evaluation** with **practical embedded prototyping** (often in MicroPython), to keep research both rigorous and implementable.  
+
+By training I’m an embedded systems engineer; professionally, I’ve worked across **sensor systems, wireless networking, anomaly detection, and machine learning applications**.
+
+On this site you’ll find my **publications, projects, CV, and updates** on topics I’m currently exploring.   -->
+
+
+
+## News
+___
