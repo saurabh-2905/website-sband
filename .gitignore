@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+#quarto
+.quarto/
+_site/
+
+# MAC
+.DS_Store
