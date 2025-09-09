@@ -2,8 +2,8 @@ project:
   type: website
   resources:
     - cv.pdf
-  # preview:
-  #   port: 7777
+  preview:
+    port: 7777
   output-dir: docs
 
 website:
