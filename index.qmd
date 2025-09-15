@@ -2,6 +2,7 @@
 title: "Saurabh Band"
 image: avatar.jpg
 description-meta: personal website of saurabh band
+site-url: https://band-saurabh.com
 open-graph: true
 about:
   template: trestles
@@ -42,7 +43,7 @@ I’m a PhD researcher at the Department of Sustainable Communication Networks (
 
 I combine microcontrollers with lightweight machine learning models to bring advanced fault detection and diagnosis (FDD) capabilities to the edge. My broader interests include **low-power IoT applications, edge computing, and efficient ML on constrained devices**.  
 
-Beyond Earth, I was part of the [Humans on Mars Initiative](https://www.uni-bremen.de/humans-on-mars-initiative), where we explore how to build reliable wireless sensor networks for extraterrestrial habitats—a challenge that pushes the boundaries of what robust IoT can achieve.  
+Beyond Earth, I was part of the <a href="https://www.uni-bremen.de/humans-on-mars-initiative" target="_blank">Humans on Mars Initiative</a>, where we explore how to build reliable wireless sensor networks for extraterrestrial habitats—a challenge that pushes the boundaries of what robust IoT can achieve.  
 
 During my PhD journey, I’ve also had the opportunity to mentor master’s students on their projects and theses—an equally rewarding experience that taught me as much as I taught them.  
 
@@ -66,7 +67,7 @@ ___
 ![](imgs/wimob_paper_publish.png){height=250 align=left}
 
 
-**Published Reliability Analysis of a Monitoring System for Extraterrestrial Habitats on [IEEE Xplore](https://ieeexplore.ieee.org/document/XXXXXXX)**  
+**Published Reliability Analysis of a Monitoring System for Extraterrestrial Habitats on <a href="https://ieeexplore.ieee.org/document/10770488" target="_blank">IEEE Xplore</a>**  
 This work tackles the critical challenge of ensuring reliable monitoring in space missions. It underscores the importance of redundancy and resource-aware strategies in building dependable systems for critical environments.
 
 ___
@@ -77,13 +78,13 @@ ___
 
 Presented our paper, "Reliability Analysis of a Monitoring System for Extraterrestrial Habitats," at the main conference of the **20th International Conference on Wireless and Mobile Computing, Networking, and Communications (#WiMob2024)** in Paris!
  
-LinkedIn Post: [To the post](https://www.linkedin.com/posts/saurabh-band-29045576_wimob2024-wimob2024-wimob2024-activity-7255522888198320129-T_bi?utm_source=share&utm_medium=member_desktop&rcm=ACoAABAViEwB0P3gubOi6HDULUCRIZ30IOXBOqU) 
+LinkedIn Post:  <a href="https://www.linkedin.com/posts/saurabh-band-29045576_wimob2024-wimob2024-wimob2024-activity-7255522888198320129-T_bi?utm_source=share&utm_medium=member_desktop&rcm=ACoAABAViEwB0P3gubOi6HDULUCRIZ30IOXBOqU" target="_blank">To the post</a> 
 
 ___
 
 **📅 2024-11-19**  
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7264322217054728196?collapsed=1" height="532" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7264322217054728196?collapsed=1" height="532" width="504" frameborder="0" allowfullscreen="" title="Embedded post" target="_blank"></iframe>
 
 
 
