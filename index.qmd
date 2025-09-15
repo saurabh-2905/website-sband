@@ -1,6 +1,8 @@
 ---
 title: "Saurabh Band"
 image: avatar.jpg
+description-meta: personal website of saurabh band
+open-graph: true
 about:
   template: trestles
   links:
@@ -58,3 +60,33 @@ On this site you’ll find my **publications, projects, CV, and updates** on top
 
 ## News
 ___
+
+**📅 2025-02-20**     
+
+![](imgs/wimob_paper_publish.png){height=250 align=left}
+
+
+**Published Reliability Analysis of a Monitoring System for Extraterrestrial Habitats on [IEEE Xplore](https://ieeexplore.ieee.org/document/XXXXXXX)**  
+This work tackles the critical challenge of ensuring reliable monitoring in space missions. It underscores the importance of redundancy and resource-aware strategies in building dependable systems for critical environments.
+
+___
+
+**📅 2024-12-15**     
+
+![](imgs/wimob_paper.jpeg){height=300 align=left}
+
+Presented our paper, "Reliability Analysis of a Monitoring System for Extraterrestrial Habitats," at the main conference of the **20th International Conference on Wireless and Mobile Computing, Networking, and Communications (#WiMob2024)** in Paris!
+ 
+LinkedIn Post: [To the post](https://www.linkedin.com/posts/saurabh-band-29045576_wimob2024-wimob2024-wimob2024-activity-7255522888198320129-T_bi?utm_source=share&utm_medium=member_desktop&rcm=ACoAABAViEwB0P3gubOi6HDULUCRIZ30IOXBOqU) 
+
+___
+
+**📅 2024-11-19**  
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7264322217054728196?collapsed=1" height="532" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+
+
+
+
+
