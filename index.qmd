@@ -1,8 +1,10 @@
 ---
 title: "Saurabh Band"
 image: avatar.jpg
-description-meta: personal website of saurabh band
+description-meta: personal website of Saurabh Band
 site-url: https://band-saurabh.com
+favicon: avatar.jpg
+twitter-card: true
 open-graph: true
 about:
   template: trestles
