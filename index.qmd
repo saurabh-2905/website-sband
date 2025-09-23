@@ -26,9 +26,9 @@ about:
     - text: Email
       icon: envelope
       url: "mailto:band.srbh@gmail.com"
-    - text: CV
-      url: "./cv.pdf"
-      target: _blank
+    # - text: CV
+    #   url: "./cv.pdf"
+    #   target: _blank
 
 
 comments: false
@@ -49,7 +49,7 @@ Beyond Earth, I was part of the <a href="https://www.uni-bremen.de/humans-on-mar
 
 During my PhD journey, I’ve also had the opportunity to mentor master’s students on their projects and theses—an equally rewarding experience that taught me as much as I taught them.  
 
-On this site you’ll find my **publications, CV, and updates** on topics I’m currently exploring.  
+On this site you’ll find my **<a href="/papers/papers.qmd" >publications</a>, <a href="/cv/cv.qmd">CV</a>, and updates** on topics I’m currently exploring.  
 
 <!-- I’m a Research Assistant at department of Sustainable Communication Networks (ComNets), at Univesity of Bremen, Germany, My work focuses on making **microcontroller-based IoT devices more reliable and power-efficient**. Much of my recent work focuses on bringing **machine learning for anomaly detection and fault diagnosis (FDD)** onto resource-constrained **wireless sensor nodes**, while carefully measuring the **overhead in CPU, memory, and energy use** that these techniques introduce.  
 
@@ -87,8 +87,6 @@ ___
 **📅 2024-11-19**  
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7264322217054728196?collapsed=1" height="532" width="504" frameborder="0" allowfullscreen="" title="Embedded post" target="_blank"></iframe>
-
-
 
 
 

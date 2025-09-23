@@ -14,6 +14,13 @@
     "text": "I’m a PhD researcher at the Department of Sustainable Communication Networks (ComNets), University of Bremen, Germany, where I work on making IoT devices more reliable and intelligent. My research focuses on enabling microcontroller-based devices to detect and diagnose malfunctions during runtime, significantly reducing the time and effort needed for debugging in the field.\nI combine microcontrollers with lightweight machine learning models to bring advanced fault detection and diagnosis (FDD) capabilities to the edge. My broader interests include low-power IoT applications, edge computing, and efficient ML on constrained devices.\nBeyond Earth, I was part of the Humans on Mars Initiative, where we explore how to build reliable wireless sensor networks for extraterrestrial habitats—a challenge that pushes the boundaries of what robust IoT can achieve.\nDuring my PhD journey, I’ve also had the opportunity to mentor master’s students on their projects and theses—an equally rewarding experience that taught me as much as I taught them.\nOn this site you’ll find my publications, CV, and updates on topics I’m currently exploring."
   },
   {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Saurabh Band",
+    "section": "",
+    "text": "📅 2025-02-20\n\nPublished Reliability Analysis of a Monitoring System for Extraterrestrial Habitats on IEEE Xplore\nThis work tackles the critical challenge of ensuring reliable monitoring in space missions. It underscores the importance of redundancy and resource-aware strategies in building dependable systems for critical environments.\n\n📅 2024-12-15\n\nPresented our paper, “Reliability Analysis of a Monitoring System for Extraterrestrial Habitats,” at the main conference of the 20th International Conference on Wireless and Mobile Computing, Networking, and Communications (#WiMob2024) in Paris!\nLinkedIn Post: To the post\n\n📅 2024-11-19"
+  },
+  {
     "objectID": "papers.html",
     "href": "papers.html",
     "title": "Publications",
@@ -21,10 +28,17 @@
     "text": "S. Band et al., “Reliability Analysis of a Monitoring System for Extraterrestrial Habitats,” in 2024 20th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob), Oct. 2024, pp. 331–338. doi: 10.1109/WiMob61911.2024.10770488.\nS. Band and A. Foerster, “(POSTER) Navigating the Unknown: Anomaly Detection in Sensor Nodes Based on Event Traces,” in 2024 20th International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT), Apr. 2024, pp. 756–758. doi: 10.1109/DCOSS-IoT61029.2024.00115.\n\nS. Band et al., “Reliability Analysis of Monitoring System for Extraterrestrial Habitat using CTMC and Empirical Evaluation,” May 14, 2023, arXiv: arXiv:2305.08143. doi: 10.48550/arXiv.2305.08143.\nS. Attarha, S. Band, and A. Förster, Automated Fault Detection Framework for Reliable Provision of IoT Applications in Agriculture. 2023, p. 8. doi: 10.1109/DRCN57075.2023.10108238.\nP. Große Maestrup et al., “Integration of a Photobioreactor into the MaMBA Facility as Part of a Human-centered Life Support System,” Jul. 2023, Accessed: Sep. 08, 2025. [Online]. Available: https://hdl.handle.net/2346/94682"
   },
   {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Saurabh Band",
+    "objectID": "cv/cv.html",
+    "href": "cv/cv.html",
+    "title": "CV",
     "section": "",
-    "text": "📅 2025-02-20\n\nPublished Reliability Analysis of a Monitoring System for Extraterrestrial Habitats on IEEE Xplore\nThis work tackles the critical challenge of ensuring reliable monitoring in space missions. It underscores the importance of redundancy and resource-aware strategies in building dependable systems for critical environments.\n\n📅 2024-12-15\n\nPresented our paper, “Reliability Analysis of a Monitoring System for Extraterrestrial Habitats,” at the main conference of the 20th International Conference on Wireless and Mobile Computing, Networking, and Communications (#WiMob2024) in Paris!\nLinkedIn Post: To the post\n\n📅 2024-11-19"
+    "text": "Download here"
+  },
+  {
+    "objectID": "papers/papers.html",
+    "href": "papers/papers.html",
+    "title": "Publications",
+    "section": "",
+    "text": "S. Band et al., “Reliability Analysis of a Monitoring System for Extraterrestrial Habitats,” in 2024 20th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob), Oct. 2024, pp. 331–338. doi: 10.1109/WiMob61911.2024.10770488.\nS. Band and A. Foerster, “(POSTER) Navigating the Unknown: Anomaly Detection in Sensor Nodes Based on Event Traces,” in 2024 20th International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT), Apr. 2024, pp. 756–758. doi: 10.1109/DCOSS-IoT61029.2024.00115.\n\nS. Band et al., “Reliability Analysis of Monitoring System for Extraterrestrial Habitat using CTMC and Empirical Evaluation,” May 14, 2023, arXiv: arXiv:2305.08143. doi: 10.48550/arXiv.2305.08143.\nS. Attarha, S. Band, and A. Förster, Automated Fault Detection Framework for Reliable Provision of IoT Applications in Agriculture. 2023, p. 8. doi: 10.1109/DRCN57075.2023.10108238.\nP. Große Maestrup et al., “Integration of a Photobioreactor into the MaMBA Facility as Part of a Human-centered Life Support System,” Jul. 2023, Accessed: Sep. 08, 2025. [Online]. Available: https://hdl.handle.net/2346/94682"
   }
 ]

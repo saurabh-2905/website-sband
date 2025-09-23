@@ -12,10 +12,14 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: papers.qmd
+      - href: ./papers/papers.qmd
         text: Publications
-      # - href: projects.qmd
-      #   text: Projects
+      - href: ./cv/cv.qmd
+        text: CV
+      - href: ./projects/projects.qmd
+        text: Projects
+      - href: ./extras/extras.qmd
+        text: More
 
   page-footer:
     left: "© 2025 Saurabh Band"
