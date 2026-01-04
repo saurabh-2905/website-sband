@@ -30,8 +30,8 @@
   {
     "objectID": "projects/projects.html",
     "href": "projects/projects.html",
-    "title": "Projects",
+    "title": "Selected Projects",
     "section": "",
-    "text": "VarLogger: Runtime Anomaly Detection\n\nRuntime fault detection for IoT nodes\nEvent-trace-based monitoring\nIEEE Xplore publication\n\n\n\n\n\n\n\n\n\nVarLogger: Runtime Anomaly Detection\n\nRuntime fault detection for IoT nodes\nEvent-trace-based monitoring\nIEEE Xplore publication\n\n\n\n\n\n\n\n\n\nVarLogger: Runtime Anomaly Detection\n\nRuntime fault detection for IoT nodes\nEvent-trace-based monitoring\nIEEE Xplore publication"
+    "text": "VarLogger: Runtime Anomaly Detection\n\nVarLogger is a lightweight runtime anomaly detection framework for resource-constrained IoT sensor nodes. It monitors selected program variables and execution flow during runtime to construct compact event traces, enabling the detection of abnormal system behavior with minimal computational and energy overhead.\nThe framework has been implemented and evaluated on real sensor node platforms, demonstrating low CPU, memory, and power overhead, and making it suitable for long-term deployment in low-power wireless and embedded systems.\n\n  Github Repo"
   }
 ]

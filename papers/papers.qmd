@@ -1,9 +1,11 @@
 ---
 title: "Publications"
 bibliography: references.bib
-citeproc: true
+# bibliographystyle: ieee
+# citeproc: true
 # nocite: |
 #   @*
+
 
 ---
 
@@ -20,8 +22,9 @@ S. Band et al., “Reliability Analysis of Monitoring System for Extraterrestria
 
 S. Attarha, S. Band, and A. Förster, Automated Fault Detection Framework for Reliable Provision of IoT Applications in Agriculture. 2023, p. 8. <a href="https://ieeexplore.ieee.org/document/10108238" target="_blank">doi: 10.1109/DRCN57075.2023.10108238</a>.
 
-P. Große Maestrup et al., “Integration of a Photobioreactor into the MaMBA Facility as Part of a Human-centered Life Support System,” Jul. 2023, Accessed: Sep. 08, 2025. [Online]. Available:  <a href="https://hdl.handle.net/2346/94682" target="_blank">https://hdl.handle.net/2346/94682</a>
+P. Große Maestrup et al., “Integration of a Photobioreactor into the MaMBA Facility as Part of a Human-centered Life Support System,” Jul. 2023, Accessed: Sep. 08, 2025. [Online]. Available:  <a href="https://hdl.handle.net/2346/94682" target="_blank">https://hdl.handle.net/2346/94682</a> 
 
 
 <!-- ::: {#refs}
 ::: -->
+
