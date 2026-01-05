@@ -5,7 +5,7 @@ title: Selected Projects
 <!-- ![](../imgs/work-progress-coming-soon-icon-600nw-2492263749.webp){width=700 align=center} -->
 
 
-### VarLogger: Runtime Anomaly Detection
+### VarLogger: Runtime Fault Detection for IoT Sensor Nodes
 
 ![](../imgs/varlogger.png){height=350 align=left}
 
@@ -14,7 +14,49 @@ VarLogger is a lightweight runtime anomaly detection framework for resource-cons
 The framework has been implemented and evaluated on real sensor node platforms, demonstrating low CPU, memory, and power overhead, and making it suitable for long-term deployment in low-power wireless and embedded systems.
 
 <p>
- <a href="https://github.com/saurabh-2905/var-diag"> {{< iconify pajamas github >}} Github Repo </a>  &nbsp;
+ <a href="https://github.com/saurabh-2905/var-diag" target='_blank'> {{< iconify pajamas github >}} Github Repo </a>  &nbsp;
+ <!-- <a href="https://github.com/saurabh-2905/var-diag"> {{< iconify academicons google-scholar >}} Publication </a> -->
+</p>
+
+
+---
+
+### VarDiag: Fault Diagnosis for IoT Sensor Nodes
+
+![](../imgs/vardiag.png){height=350 align=left}
+
+VarDiag is a trace-driven fault diagnosis framework that works alongside VarLogger to explain the root cause of anomalies in IoT sensor nodes. Instead of only flagging abnormal behavior, VarDiag analyzes recorded event traces offline to reconstruct execution, locate the point where behavior diverges, and identify which variables, states, or components are responsible. This approach keeps the sensor node lightweight while enabling developers to understand what went wrong, when it happened, and why, using only minimal runtime logging.
+
+<p>
+ <a href="https://github.com/saurabh-2905/var-diag/tree/main/detect_diag/diagnosis%20method" target='_blank'> {{< iconify pajamas github >}} Github Repo </a>  &nbsp;
+ <!-- <a href="https://github.com/saurabh-2905/var-diag"> {{< iconify academicons google-scholar >}} Publication </a> -->
+</p>
+
+
+---
+
+### Event Trace Visualization Dashboard
+
+![](../imgs/dashboard.png){height=350 align=left}
+
+This project is an interactive dashboard for exploring event traces generated from IoT sensor nodes. Built using Plotly Dash with a SQLAlchemy-backed database, it allows users to load and compare traces, toggle ground-truth labels and anomaly detections, and switch between detections from multiple models. The dashboard provides an intuitive way to inspect how system behavior evolves over time and to visually understand where faults or anomalies were detected.
+
+<p>
+ <a href="https://github.com/saurabh-2905/var-diag/blob/main/analysis%20scripts/visualize_sqlite.py" target='_blank'> {{< iconify pajamas github >}} Github Repo </a>  &nbsp;
+ <!-- <a href="https://github.com/saurabh-2905/var-diag"> {{< iconify academicons google-scholar >}} Publication </a> -->
+</p>
+
+
+---
+
+### Unsupervised Domain Adaptation for Object Detection (YOLOv3)
+
+![](../imgs/yolo_uda.png){height=350 align=left}
+
+This project explores how to maintain object-detection accuracy when a YOLOv3 model is trained on synthetic fisheye images but deployed on real fisheye camera data for patient-monitoring scenarios. Because labeled real fisheye datasets are limited, the model is trained on synthetic data — but differences between the two domains can significantly reduce performance. To overcome this, I implemented and evaluated two unsupervised domain adaptation (UDA) methods that learn to bridge the synthetic–to–real gap without using labeled target data. The approach improves the model’s ability to reliably detect people in real environments while still benefiting from inexpensive synthetic training data.
+
+<p>
+ <a href="https://github.com/saurabh-2905/YOLOv3-UDA-Master_Thesis" target='_blank'> {{< iconify pajamas github >}} Github Repo </a>  &nbsp;
  <!-- <a href="https://github.com/saurabh-2905/var-diag"> {{< iconify academicons google-scholar >}} Publication </a> -->
 </p>
 
@@ -31,33 +73,5 @@ The framework has been implemented and evaluated on real sensor node platforms, 
 
 - **Link**
 :::
-:::
-
----
-
-::: {.grid}
-::: {.g-col-4}
-![](../imgs/placeholder.jpg)
-:::
-
-::: {.g-col-8}
-### Event-Trace Visualization
-
-- **Link**
-:::
-:::
-
----
-
-::: {.grid}
-::: {.g-col-4}
-![](../imgs/placeholder.jpg)
-:::
-
-::: {.g-col-8}
-### YOLO for FishEye Images
-
--copyrights
-- **Link**
-:::
 ::: -->
+

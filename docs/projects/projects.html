@@ -129,7 +129,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#varlogger-runtime-anomaly-detection" id="toc-varlogger-runtime-anomaly-detection" class="nav-link active" data-scroll-target="#varlogger-runtime-anomaly-detection">VarLogger: Runtime Anomaly Detection</a></li>
+  <li><a href="#varlogger-runtime-fault-detection-for-iot-sensor-nodes" id="toc-varlogger-runtime-fault-detection-for-iot-sensor-nodes" class="nav-link active" data-scroll-target="#varlogger-runtime-fault-detection-for-iot-sensor-nodes">VarLogger: Runtime Fault Detection for IoT Sensor Nodes</a></li>
+  <li><a href="#vardiag-fault-diagnosis-for-iot-sensor-nodes" id="toc-vardiag-fault-diagnosis-for-iot-sensor-nodes" class="nav-link" data-scroll-target="#vardiag-fault-diagnosis-for-iot-sensor-nodes">VarDiag: Fault Diagnosis for IoT Sensor Nodes</a></li>
+  <li><a href="#event-trace-visualization-dashboard" id="toc-event-trace-visualization-dashboard" class="nav-link" data-scroll-target="#event-trace-visualization-dashboard">Event Trace Visualization Dashboard</a></li>
+  <li><a href="#unsupervised-domain-adaptation-for-object-detection-yolov3" id="toc-unsupervised-domain-adaptation-for-object-detection-yolov3" class="nav-link" data-scroll-target="#unsupervised-domain-adaptation-for-object-detection-yolov3">Unsupervised Domain Adaptation for Object Detection (YOLOv3)</a></li>
   </ul>
 </nav>
     </div>
@@ -156,13 +159,40 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!-- ![](../imgs/work-progress-coming-soon-icon-600nw-2492263749.webp){width=700 align=center} -->
-<section id="varlogger-runtime-anomaly-detection" class="level3">
-<h3 class="anchored" data-anchor-id="varlogger-runtime-anomaly-detection">VarLogger: Runtime Anomaly Detection</h3>
+<section id="varlogger-runtime-fault-detection-for-iot-sensor-nodes" class="level3">
+<h3 class="anchored" data-anchor-id="varlogger-runtime-fault-detection-for-iot-sensor-nodes">VarLogger: Runtime Fault Detection for IoT Sensor Nodes</h3>
 <p><img src="../imgs/varlogger.png" data-align="left" height="350"></p>
 <p>VarLogger is a lightweight runtime anomaly detection framework for resource-constrained IoT sensor nodes. It monitors selected program variables and execution flow during runtime to construct compact event traces, enabling the detection of abnormal system behavior with minimal computational and energy overhead.</p>
 <p>The framework has been implemented and evaluated on real sensor node platforms, demonstrating low CPU, memory, and power overhead, and making it suitable for long-term deployment in low-power wireless and embedded systems.</p>
 <p>
-<a href="https://github.com/saurabh-2905/var-diag"> <iconify-icon role="img" inline="" icon="pajamas:github" aria-label="Icon github from pajamas Iconify.design set." title="Icon github from pajamas Iconify.design set."></iconify-icon> Github Repo </a> &nbsp; <!-- <a href="https://github.com/saurabh-2905/var-diag">  Publication </a> -->
+<a href="https://github.com/saurabh-2905/var-diag" target="_blank"> <iconify-icon role="img" inline="" icon="pajamas:github" aria-label="Icon github from pajamas Iconify.design set." title="Icon github from pajamas Iconify.design set."></iconify-icon> Github Repo </a> &nbsp; <!-- <a href="https://github.com/saurabh-2905/var-diag">  Publication </a> -->
+</p>
+<hr>
+</section>
+<section id="vardiag-fault-diagnosis-for-iot-sensor-nodes" class="level3">
+<h3 class="anchored" data-anchor-id="vardiag-fault-diagnosis-for-iot-sensor-nodes">VarDiag: Fault Diagnosis for IoT Sensor Nodes</h3>
+<p><img src="../imgs/vardiag.png" data-align="left" height="350"></p>
+<p>VarDiag is a trace-driven fault diagnosis framework that works alongside VarLogger to explain the root cause of anomalies in IoT sensor nodes. Instead of only flagging abnormal behavior, VarDiag analyzes recorded event traces offline to reconstruct execution, locate the point where behavior diverges, and identify which variables, states, or components are responsible. This approach keeps the sensor node lightweight while enabling developers to understand what went wrong, when it happened, and why, using only minimal runtime logging.</p>
+<p>
+<a href="https://github.com/saurabh-2905/var-diag/tree/main/detect_diag/diagnosis%20method" target="_blank"> <iconify-icon role="img" inline="" icon="pajamas:github" aria-label="Icon github from pajamas Iconify.design set." title="Icon github from pajamas Iconify.design set."></iconify-icon> Github Repo </a> &nbsp; <!-- <a href="https://github.com/saurabh-2905/var-diag">  Publication </a> -->
+</p>
+<hr>
+</section>
+<section id="event-trace-visualization-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="event-trace-visualization-dashboard">Event Trace Visualization Dashboard</h3>
+<p><img src="../imgs/dashboard.png" data-align="left" height="350"></p>
+<p>This project is an interactive dashboard for exploring event traces generated from IoT sensor nodes. Built using Plotly Dash with a SQLAlchemy-backed database, it allows users to load and compare traces, toggle ground-truth labels and anomaly detections, and switch between detections from multiple models. The dashboard provides an intuitive way to inspect how system behavior evolves over time and to visually understand where faults or anomalies were detected.</p>
+<p>
+<a href="https://github.com/saurabh-2905/var-diag/blob/main/analysis%20scripts/visualize_sqlite.py" target="_blank"> <iconify-icon role="img" inline="" icon="pajamas:github" aria-label="Icon github from pajamas Iconify.design set." title="Icon github from pajamas Iconify.design set."></iconify-icon> Github Repo </a> &nbsp; <!-- <a href="https://github.com/saurabh-2905/var-diag">  Publication </a> -->
+</p>
+<hr>
+</section>
+<section id="unsupervised-domain-adaptation-for-object-detection-yolov3" class="level3">
+<h3 class="anchored" data-anchor-id="unsupervised-domain-adaptation-for-object-detection-yolov3">Unsupervised Domain Adaptation for Object Detection (YOLOv3)</h3>
+<p><img src="../imgs/yolo_uda.png" data-align="left" height="350"></p>
+<p>This project explores how to maintain object-detection accuracy when a YOLOv3 model is trained on synthetic fisheye images but deployed on real fisheye camera data for patient-monitoring scenarios. Because labeled real fisheye datasets are limited, the model is trained on synthetic data — but differences between the two domains can significantly reduce performance. To overcome this, I implemented and evaluated two unsupervised domain adaptation (UDA) methods that learn to bridge the synthetic–to–real gap without using labeled target data. The approach improves the model’s ability to reliably detect people in real environments while still benefiting from inexpensive synthetic training data.</p>
+<p>
+<a href="https://github.com/saurabh-2905/YOLOv3-UDA-Master_Thesis" target="_blank"> <iconify-icon role="img" inline="" icon="pajamas:github" aria-label="Icon github from pajamas Iconify.design set." title="Icon github from pajamas Iconify.design set."></iconify-icon> Github Repo </a> &nbsp; <!-- <a href="https://github.com/saurabh-2905/var-diag">  Publication </a> -->
 </p>
 <hr>
 <!-- ::: {.grid}
@@ -173,35 +203,6 @@ ul.task-list li input[type="checkbox"] {
 ::: {.g-col-8}
 ### VarDiag: Runtime Anomaly Diagnosis
 
-- **Link**
-:::
-:::
-
----
-
-::: {.grid}
-::: {.g-col-4}
-![](../imgs/placeholder.jpg)
-:::
-
-::: {.g-col-8}
-### Event-Trace Visualization
-
-- **Link**
-:::
-:::
-
----
-
-::: {.grid}
-::: {.g-col-4}
-![](../imgs/placeholder.jpg)
-:::
-
-::: {.g-col-8}
-### YOLO for FishEye Images
-
--copyrights
 - **Link**
 :::
 ::: -->
